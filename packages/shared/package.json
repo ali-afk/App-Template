@@ -5,6 +5,10 @@
 	"description": "Shared build config, tooling, and utilities",
 	"license": "MPL-2.0",
 	"type": "module",
+	"imports": {
+		"#utils/*": "./utils/*.ts",
+		"#vite/*": "./vite/*.ts"
+	},
 	"exports": {
 		"./vite": "./vite/index.ts",
 		"./utils/*": "./utils/*.ts",

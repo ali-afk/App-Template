@@ -2,7 +2,7 @@ import type { ServerOptions, ViteUserConfig } from "vite-plus";
 import type { OxfmtConfig } from "vite-plus/fmt";
 import type { OxlintConfig } from "vite-plus/lint";
 
-import { host } from "../utils/build.js";
+import { host } from "#utils/build";
 
 export let defaultIgnorePatterns = [
 	"**/.svelte-kit/**",

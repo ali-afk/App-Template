@@ -1,4 +1,4 @@
-export { default as BuildConfig } from "./build.js";
-export { default as BaseConfig } from "./base.js";
-export { default as TestConfig } from "./test.js";
-export * from "./svelte.js";
+export { default as BuildConfig } from "#vite/build";
+export { default as BaseConfig } from "#vite/base";
+export { default as TestConfig } from "#vite/test";
+export * from "#vite/svelte";

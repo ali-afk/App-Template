@@ -1,10 +1,9 @@
+import { isTest } from "@app-template/shared/utils/build";
+import { TestConfig, BaseConfig, BuildConfig, SveltekitConfig } from "@app-template/shared/vite";
 import { sveltekit } from "@sveltejs/kit/vite";
 import { svelteTesting } from "@testing-library/svelte/vite";
 import { run } from "vite-plugin-run";
 import { defineConfig } from "vite-plus";
-
-import { isTest } from "../shared/utils/build.js";
-import { TestConfig, BaseConfig, BuildConfig, SveltekitConfig } from "../shared/vite/index.js";
 
 export default defineConfig({
 	...BaseConfig,

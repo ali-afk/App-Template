@@ -1,6 +1,6 @@
 import type { BuildEnvironmentOptions, CSSOptions, ViteUserConfig } from "vite-plus";
 
-import { browserVersions, getBuildTarget, targets } from "../utils/build.js";
+import { browserVersions, getBuildTarget, targets } from "#utils/build";
 
 export default {
 	css: {
