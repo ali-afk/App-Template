@@ -11,5 +11,8 @@
 	"dependencies": {
 		"@tauri-template/infrastructure": "workspace:*",
 		"@tauri-template/shared": "workspace:*"
+	},
+	"devDependencies": {
+		"@testing-library/jest-dom": "^7.0.1"
 	}
 }
