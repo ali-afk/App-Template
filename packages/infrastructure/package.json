@@ -13,16 +13,15 @@
 		"./ports": "./src/ports/index.ts"
 	},
 	"dependencies": {
-		"@tauri-apps/api": "^2.12.1",
+		"@tauri-apps/api": "^2.12.4",
 		"@tauri-template/app": "workspace:*",
 		"@tauri-template/domain": "workspace:*",
 		"@tauri-template/shared": "workspace:*"
 	},
 	"devDependencies": {
-		"happy-dom": "^20.14.5",
-		"typescript": "^6.0.3",
+		"happy-dom": "^21.0.4",
+		"typescript": "^7.0.2",
 		"vite": "catalog:",
-		"vite-plus": "catalog:",
-		"vitest": "catalog:"
+		"vite-plus": "catalog:"
 	}
 }

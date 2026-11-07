@@ -36,13 +36,13 @@
 		"./utils/*": "./.out/build/utils/*"
 	},
 	"dependencies": {
-		"@tauri-apps/api": "^2.12.1",
+		"@tauri-apps/api": "^2.12.4",
 		"@tauri-template/infrastructure": "workspace:*",
 		"@tauri-template/shared": "workspace:*",
-		"bezier-easing": "^3.1.0"
+		"bezier-easing": "^3.2.0"
 	},
 	"devDependencies": {
-		"@sveltejs/package": "^3.0.0",
+		"@sveltejs/package": "^3.0.2",
 		"@testing-library/dom": "^10.4.2",
 		"@testing-library/jest-dom": "^7.0.1",
 		"@testing-library/svelte": "^5.4.2",
@@ -52,6 +52,6 @@
 		"vite-plugin-run": "^0.9.1"
 	},
 	"peerDependencies": {
-		"svelte": "^5.57.1"
+		"svelte": "^5.57.3"
 	}
 }
