@@ -1,5 +1,5 @@
 {
-	"name": "@tauri-template/web",
+	"name": "@app-template/web",
 	"version": "0.0.1",
 	"private": true,
 	"description": "SvelteKit web app",
@@ -12,11 +12,11 @@
 		"prepare": "svelte-kit sync"
 	},
 	"dependencies": {
-		"@tauri-template/app": "workspace:*",
-		"@tauri-template/domain": "workspace:*",
-		"@tauri-template/infrastructure": "workspace:*",
-		"@tauri-template/shared": "workspace:*",
-		"@tauri-template/ui": "workspace:*",
+		"@app-template/app": "workspace:*",
+		"@app-template/domain": "workspace:*",
+		"@app-template/infrastructure": "workspace:*",
+		"@app-template/shared": "workspace:*",
+		"@app-template/ui": "workspace:*",
 		"svelte": "^5.57.3"
 	},
 	"devDependencies": {

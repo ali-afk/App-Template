@@ -5,8 +5,8 @@ import type {
 	AppSettingsKeyKind,
 	Result,
 	SettingsPort,
-} from "@tauri-template/domain/ports";
-import { getSettingsService } from "@tauri-template/infrastructure";
+} from "@app-template/domain/ports";
+import { getSettingsService } from "@app-template/infrastructure";
 
 /** Application-layer settings use cases over the SettingsPort. */
 export interface SettingsController {

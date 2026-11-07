@@ -1,6 +1,6 @@
 # Roadmap
 
-tauri-template — Tauri v2 + SvelteKit v2 + Svelte 5 desktop app template.
+app-template — Tauri v2 + SvelteKit v2 + Svelte 5 desktop app template.
 
 ---
 

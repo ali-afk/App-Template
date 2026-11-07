@@ -57,7 +57,7 @@ The Rust backend follows a three-layer structure in `src-tauri/src/`:
 - `infrastructure/` — infrastructure layer: store serialization, plugin setup
 
 `lib.rs` re-exports the three modules and registers commands via
-`collect_commands![]`. `main.rs` calls `tauri_template_lib::run()`.
+`collect_commands![]`. `main.rs` calls `app_template_lib::run()`.
 
 ## Build & Tooling
 

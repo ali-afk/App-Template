@@ -1,4 +1,4 @@
-import type { AppError, Result } from "@tauri-template/domain/ports";
+import type { AppError, Result } from "@app-template/domain/ports";
 
 import type { WebStorage } from "./web-storage.js";
 

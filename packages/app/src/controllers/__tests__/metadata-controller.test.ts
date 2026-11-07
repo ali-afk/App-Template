@@ -1,4 +1,4 @@
-import type { AppError, AppMetadata, MetadataPort, Result } from "@tauri-template/domain/ports";
+import type { AppError, AppMetadata, MetadataPort, Result } from "@app-template/domain/ports";
 
 import { createMetadataController } from "../metadata-controller.js";
 

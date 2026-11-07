@@ -1,1 +1,1 @@
-export * from "@tauri-template/domain/ports";
+export * from "@app-template/domain/ports";

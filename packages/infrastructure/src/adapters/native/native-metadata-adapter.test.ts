@@ -14,7 +14,7 @@ vi.mock("../../tauri/bindings.js", () => ({
 
 const METADATA: AppMetadata = {
 	version: "0.0.1",
-	name: "Tauri Template",
+	name: "App Template",
 	description: "A desktop app template",
 	url: "https://example.com",
 	contacts: { email: "hi@example.com", github: "https://github.com/example" },

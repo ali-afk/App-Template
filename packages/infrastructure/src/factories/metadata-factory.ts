@@ -1,4 +1,4 @@
-import type { MetadataPort } from "@tauri-template/domain/ports";
+import type { MetadataPort } from "@app-template/domain/ports";
 
 import { createNativeMetadataService } from "../adapters/native/native-metadata-adapter.js";
 import { createWebMetadataService } from "../adapters/web/web-metadata-adapter.js";

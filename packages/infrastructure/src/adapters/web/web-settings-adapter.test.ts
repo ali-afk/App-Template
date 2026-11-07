@@ -1,4 +1,4 @@
-import type { SettingsPort } from "@tauri-template/domain/ports";
+import type { SettingsPort } from "@app-template/domain/ports";
 
 import { createWebSettingsService } from "./web-settings-adapter.js";
 import type { WebStorage } from "./web-storage.js";

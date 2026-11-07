@@ -5,7 +5,7 @@ members = ["packages/app", "packages/shell", "packages/infrastructure", "package
 
 [workspace.package]
 license = "MPL-2.0"
-repository = "https://github.com/ali-afk/Tauri-Template"
+repository = "https://github.com/ali-afk/App-Template"
 version = "0.0.1"
 authors = ["ali-afk"]
 description = "Personal SvelteKit starter template with design tokens, auto-contrast colors, and component library"

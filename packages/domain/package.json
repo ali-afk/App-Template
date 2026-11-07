@@ -1,5 +1,5 @@
 {
-	"name": "@tauri-template/domain",
+	"name": "@app-template/domain",
 	"version": "0.0.1",
 	"private": true,
 	"description": "Domain layer",
@@ -9,8 +9,8 @@
 		"./ports": "./src/ports/index.ts"
 	},
 	"dependencies": {
-		"@tauri-template/infrastructure": "workspace:*",
-		"@tauri-template/shared": "workspace:*"
+		"@app-template/infrastructure": "workspace:*",
+		"@app-template/shared": "workspace:*"
 	},
 	"devDependencies": {
 		"@testing-library/jest-dom": "^7.0.1"

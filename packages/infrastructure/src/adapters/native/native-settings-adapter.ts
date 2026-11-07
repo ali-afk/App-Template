@@ -1,4 +1,4 @@
-import type { SettingsPort } from "@tauri-template/domain/ports";
+import type { SettingsPort } from "@app-template/domain/ports";
 
 import { commands } from "../../tauri/bindings.js";
 

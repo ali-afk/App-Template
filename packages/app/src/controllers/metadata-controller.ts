@@ -1,5 +1,5 @@
-import type { AppError, AppMetadata, MetadataPort, Result } from "@tauri-template/domain/ports";
-import { getMetadataService } from "@tauri-template/infrastructure";
+import type { AppError, AppMetadata, MetadataPort, Result } from "@app-template/domain/ports";
+import { getMetadataService } from "@app-template/infrastructure";
 
 /** Application-layer metadata use cases over the MetadataPort. */
 export interface MetadataController {

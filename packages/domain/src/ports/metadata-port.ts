@@ -1,4 +1,4 @@
-import type { AppError, AppMetadata } from "@tauri-template/infrastructure/tauri/bindings";
+import type { AppError, AppMetadata } from "@app-template/infrastructure/tauri/bindings";
 
 import type { Result } from "./result.js";
 

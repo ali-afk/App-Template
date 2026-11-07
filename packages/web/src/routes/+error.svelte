@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from "$app/state";
-	import { Meta } from "@tauri-template/ui/components/index";
+	import { Meta } from "@app-template/ui/components/index";
 </script>
 
 <Meta title={page.status.toString()} />

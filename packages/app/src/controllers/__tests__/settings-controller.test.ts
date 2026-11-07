@@ -4,7 +4,7 @@ import type {
 	AppSettingsKey,
 	Result,
 	SettingsPort,
-} from "@tauri-template/domain/ports";
+} from "@app-template/domain/ports";
 
 import { createSettingsController } from "../settings-controller.js";
 

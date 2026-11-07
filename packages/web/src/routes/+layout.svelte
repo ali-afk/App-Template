@@ -1,9 +1,9 @@
 <script lang="ts">
-import { AppMetadata } from "@tauri-template/ui/data/stores/config";
-import "@tauri-template/ui/styles/index.css";
+import { AppMetadata } from "@app-template/ui/data/stores/config";
+import "@app-template/ui/styles/index.css";
 import { onMount } from "svelte";
-import { getMetadataService } from "@tauri-template/infrastructure";
-import { handleResult } from "@tauri-template/ui/tauri/utils";
+import { getMetadataService } from "@app-template/infrastructure";
+import { handleResult } from "@app-template/ui/tauri/utils";
 
 // Guards child rendering — shows loading screen until IPC resolves
 let isInitialized = $state(false);

@@ -2,7 +2,7 @@ import { createWebMetadataService } from "./web-metadata-adapter.js";
 
 const METADATA = {
 	version: "0.0.1",
-	name: "Tauri Template",
+	name: "App Template",
 	description: "A desktop app template",
 	url: "https://example.com",
 	contacts: { email: "hi@example.com", github: "https://github.com/example" },

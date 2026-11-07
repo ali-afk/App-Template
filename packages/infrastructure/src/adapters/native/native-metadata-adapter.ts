@@ -1,4 +1,4 @@
-import type { MetadataPort } from "@tauri-template/domain/ports";
+import type { MetadataPort } from "@app-template/domain/ports";
 
 import { commands } from "../../tauri/bindings.js";
 

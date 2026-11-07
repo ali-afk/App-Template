@@ -1,5 +1,5 @@
 {
-	"name": "@tauri-template/ui",
+	"name": "@app-template/ui",
 	"version": "0.0.1",
 	"private": true,
 	"description": "Component library",
@@ -39,9 +39,9 @@
 		"prepare": "svelte-kit sync"
 	},
 	"dependencies": {
+		"@app-template/infrastructure": "workspace:*",
+		"@app-template/shared": "workspace:*",
 		"@tauri-apps/api": "^2.12.4",
-		"@tauri-template/infrastructure": "workspace:*",
-		"@tauri-template/shared": "workspace:*",
 		"bezier-easing": "^3.2.0"
 	},
 	"devDependencies": {

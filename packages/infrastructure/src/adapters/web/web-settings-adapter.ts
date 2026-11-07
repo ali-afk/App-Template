@@ -7,7 +7,7 @@ import type {
 	Result,
 	SettingsPort,
 	Theme,
-} from "@tauri-template/domain/ports";
+} from "@app-template/domain/ports";
 
 import { configError, isRecord, readJson } from "./read-json.js";
 import { defaultWebStorage, type WebStorage } from "./web-storage.js";

@@ -1,5 +1,5 @@
 {
-	"name": "tauri-template",
+	"name": "app-template",
 	"version": "0.0.1",
 	"private": true,
 	"description": "Personal SvelteKit starter template with design tokens, auto-contrast colors, and component library",

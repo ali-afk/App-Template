@@ -1,4 +1,4 @@
-import type { AppMetadata as AppMetadataType } from "@tauri-template/infrastructure/tauri/bindings";
+import type { AppMetadata as AppMetadataType } from "@app-template/infrastructure/tauri/bindings";
 import { waitFor } from "@testing-library/dom";
 import { render } from "@testing-library/svelte";
 

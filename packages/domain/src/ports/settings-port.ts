@@ -3,7 +3,7 @@ import type {
 	AppSettings,
 	AppSettingsKey,
 	AppSettingsKeyKind,
-} from "@tauri-template/infrastructure/tauri/bindings";
+} from "@app-template/infrastructure/tauri/bindings";
 
 import type { Result } from "./result.js";
 
