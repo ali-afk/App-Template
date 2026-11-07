@@ -1,0 +1,5 @@
+{
+	"version": "0.0.1",
+	"description": "A modern, accessible desktop application built with Tauri + SvelteKit, featuring design tokens, auto-contrast colors, and a component library.",
+	"urls": {}
+}
