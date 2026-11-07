@@ -1,5 +1,5 @@
 {
-	"extends": ["../shared/tsconfig/tsconfig.base"],
+	"extends": ["@app-template/shared/tsconfig/tsconfig.base.json"],
 	"exclude": [
 		"${configDir}/src/tauri/bindings.ts",
 		"${configDir}/**/.out/**",

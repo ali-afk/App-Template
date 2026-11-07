@@ -7,7 +7,8 @@
 	"type": "module",
 	"exports": {
 		"./vite": "./vite/index.ts",
-		"./utils/*": "./utils/*.ts"
+		"./utils/*": "./utils/*.ts",
+		"./tsconfig/*": "./tsconfig/*"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^4.0.1",

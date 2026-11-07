@@ -10,7 +10,8 @@
 	},
 	"dependencies": {
 		"@app-template/domain": "workspace:*",
-		"@app-template/infrastructure": "workspace:*"
+		"@app-template/infrastructure": "workspace:*",
+		"@app-template/shared": "workspace:*"
 	},
 	"devDependencies": {
 		"@testing-library/jest-dom": "^7.0.1",

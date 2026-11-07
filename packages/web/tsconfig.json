@@ -1,3 +1,3 @@
 {
-	"extends": ["$app/tsconfig", "../shared/tsconfig/tsconfig.svelte"]
+	"extends": ["$app/tsconfig", "@app-template/shared/tsconfig/tsconfig.svelte.json"]
 }
