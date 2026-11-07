@@ -35,6 +35,9 @@
 		"./types/*": "./.out/build/types/*",
 		"./utils/*": "./.out/build/utils/*"
 	},
+	"scripts": {
+		"prepare": "svelte-kit sync"
+	},
 	"dependencies": {
 		"@tauri-apps/api": "^2.12.4",
 		"@tauri-template/infrastructure": "workspace:*",
