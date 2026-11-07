@@ -4,7 +4,7 @@
 		"types": [
 			"bun",
 			"vite-plus/test/globals",
-			"@testing-library/jest-dom",
+			"@testing-library/jest-dom/vitest",
 			"vite-plus/client",
 			"$app/types"
 		]

@@ -5,5 +5,13 @@
 		"${configDir}/**/.out/**",
 		"${configDir}/**/.cache/**",
 		"${configDir}/**/node_modules/**"
-	]
+	],
+	"compilerOptions": {
+		"types": [
+			"bun",
+			"vite-plus/test/globals",
+			"@testing-library/jest-dom/vitest",
+			"vite-plus/client"
+		]
+	}
 }

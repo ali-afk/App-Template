@@ -1,0 +1,12 @@
+{
+	"extends": ["./fragments/tsconfig.bundler", "./fragments/tsconfig.lint"],
+	"include": ["${configDir}/**/*.ts"],
+	"exclude": [
+		"${configDir}/**/.out/**",
+		"${configDir}/**/.cache/**",
+		"${configDir}/**/node_modules/**"
+	],
+	"compilerOptions": {
+		"types": ["bun", "@wdio/globals/types", "@wdio/mocha-framework"]
+	}
+}

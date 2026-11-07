@@ -7,7 +7,6 @@
 		"noImplicitReturns": true,
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true,
-		"noUnusedLocals": true,
-		"types": ["bun", "vite-plus/test/globals", "@testing-library/jest-dom", "vite-plus/client"]
+		"noUnusedLocals": true
 	}
 }
